@@ -46,7 +46,7 @@
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
-    <AotAssemblies>false</AotAssemblies>
+    <AotAssemblies>true</AotAssemblies>
     <EnableLLVM>false</EnableLLVM>
     <BundleAssemblies>true</BundleAssemblies>
     <AndroidEnableMultiDex>false</AndroidEnableMultiDex>
@@ -55,6 +55,7 @@
     <AndroidLinkTool>r8</AndroidLinkTool>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
+    <AndroidEnableProfiledAot>true</AndroidEnableProfiledAot>
   </PropertyGroup>
   <PropertyGroup>
     <TelerikInstallationBinariesPath>$(TelerikXamarinDir)Binaries</TelerikInstallationBinariesPath>
